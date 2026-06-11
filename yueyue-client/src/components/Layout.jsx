@@ -11,7 +11,7 @@ export function Layout() {
           <span className="brand-mark">赴</span>
           <div>
             <strong>一站式赴约小管家</strong>
-            <p>{isHome ? '让赴约这件事，先浪漫起来。' : '把每一场期待，提前安排成更安心也更浪漫的赴约。'}</p>
+            <p>{isHome ? '让奔赴这件事，先愉快起来。' : '把每一场赴约，提前安排得更安心也更愉快。'}</p>
           </div>
         </NavLink>
 
@@ -36,7 +36,7 @@ export function Layout() {
               模块入口
             </NavLink>
             <NavLink to="/money" className={({ isActive }) => (isActive ? 'topnav-link active' : 'topnav-link')}>
-              记账分账
+              记账分钱
             </NavLink>
             <NavLink to="/my-trips" className={({ isActive }) => (isActive ? 'topnav-link active' : 'topnav-link')}>
               我的安排

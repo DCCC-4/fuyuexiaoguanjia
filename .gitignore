@@ -1,6 +1,10 @@
 node_modules/
 dist/
 .env
+.dbg/
+.trae/
+yueyue-miniapp/.auth/
+yueyue-miniapp/.pai/
 *.log
 .DS_Store
 .tmp-*
